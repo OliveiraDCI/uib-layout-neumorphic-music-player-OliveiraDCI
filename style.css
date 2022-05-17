@@ -13,3 +13,76 @@ html {
 body {
   font: normal 1.6rem/1.5 "Inter", sans-serif;
 }
+
+/* DEVICE */
+
+.device-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  width: 400px;
+  margin: 15vh auto;
+  background: #e0e0e081;
+  border-radius: 15px;
+}
+
+.main-control {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-btn,
+.power-off-btn {
+  margin: 1.5em;
+  padding: 1.2em 1.5em;
+  border-radius: 12px;
+}
+
+.search-btn,
+.power-off-btn {
+  background: linear-gradient(315deg, #f0f0f0, #cacaca);
+  box-shadow: -23px -23px 46px #dedede, 23px 23px 46px #e2e2e2;
+}
+
+.playlist-name {
+  font-weight: 800;
+  letter-spacing: 0.7px;
+}
+
+.track-img {
+  background-image: url(/assets/track-image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.track-control {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.control-btn-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bar {
+  content: "";
+  margin: 2em;
+  height: 7px;
+  width: 60%;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 5px 5px 100px #cccccc, -5px -5px 100px #f4f4f4;
+}
