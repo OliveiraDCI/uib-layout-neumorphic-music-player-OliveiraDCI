@@ -26,6 +26,7 @@ body {
   margin: 15vh auto;
   background: #e0e0e081;
   border-radius: 15px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.6);
 }
 
 .main-control {
@@ -75,6 +76,35 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.btn {
+  margin-top: 1em;
+  padding: 1.5em 2em;
+  border-radius: 15px;
+  background: linear-gradient(45deg, #cacaca, #f0f0f0);
+  box-shadow: 20px -20px 60px #bebebe, -20px 20px 60px #ffffff;
+}
+
+.progress-bar {
+  position: relative;
+  height: 10px;
+  width: 85%;
+  margin: 0.8em auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.progress-bar-inner {
+  position: absolute;
+  z-index: 1;
+  top: -13px;
+  left: 0;
+  height: 10px;
+  width: 65%;
+  margin: 0.8em auto;
+  background: linear-gradient(to right, rgb(17, 17, 194), purple, blue, purple);
+  border-radius: 10px;
 }
 
 .bar {
